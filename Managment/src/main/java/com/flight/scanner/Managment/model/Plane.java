@@ -14,7 +14,7 @@ import lombok.*;
 public class Plane {
     @Id
     @GeneratedValue
-    private Long aircraftId;
+    private Long planeId;
     private String manufacturer;
     private String model;
     private Integer numberOfSeats;

@@ -19,16 +19,9 @@ public class User {
     @GeneratedValue
     private Integer id;
     private String lastname;
-
-
     private String username;
-
     private String email;
-
-
     private String password;
-
-
     @ManyToMany
     private List<Role> roles;
 

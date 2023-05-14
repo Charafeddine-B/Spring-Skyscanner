@@ -18,15 +18,10 @@ public class Passenger {
     private long passengerId;
     private String firstName;
     private String lastName;
-
     private String phoneNumber;
-
     private String passportNumber;
-
     private String email;
-
     private String address;
-
     @ManyToOne
     private Flight flight;
 }

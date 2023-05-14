@@ -1,2 +1,4 @@
-package com.flight.scanner.Managment.controller;public class PassengerController {
+package com.flight.scanner.Managment.controller;
+
+public class PassengerController {
 }
